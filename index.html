@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>domino counter</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/donino.css">
+  <!-- font Awesome icons-->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <h3><i class="fa-solid fa-lines-leaning"></i> <span>domino</span> counter</h3>
+    </div>
+  </div>
+  <div class="counter">
+    <div class="container">
+      <div>
+        <h3>type your favorite <span>name:</span></h3>
+      </div>
+      <div class="count">
+        <div class="col">
+          <input type="text" placeholder="player 1" class="team-name teNa1">
+          <div class="sub-screen sub1" data-totalscore="0">
+            <input type="number" value="0" class="screen scr1" readonly>
+          </div>
+          <button class="incr in1">+1</button>
+          <button class="decr de1">-1</button>
+          <button class="incr doublein1">+2</button>
+          <button class="decr doublede1">-2</button>
+          <button class="incr triin1">+3</button>
+          <button class="decr tride1">-3</button>
+        </div>
+        <div class="col">
+          <input type="text" placeholder="player 1" class="team-name teNa2">
+          <div class="sub-screen sub2" data-totalscore="0">
+            <input type="number" value="0" class="screen scr2" readonly>
+          </div>
+          <button class="incr in2">+1</button>
+          <button class="decr de2">-1</button>
+          <button class="incr doublein2">+2</button>
+          <button class="decr doublede2">-2</button>
+          <button class="incr triin2">+3</button>
+          <button class="decr tride2">-3</button>
+        </div>
+      </div>
+      <div>
+        <button class="reset-sc res">reset score</button>
+      </div>
+      <div>
+        <button class="res-all resall">reset all</button>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container">
+      &copy; 2022 <span>mahmoud</span>
+    </div>
+  </div>
+  
+  
+  <script src="js/main.js"></script>
+</body>
+
+</html>
